@@ -44,7 +44,7 @@ Each mechanism separates setup (`bootstrap.md`), ongoing agent instructions (`ag
 | Mechanism | What it helps us do | Availability |
 |---|---|---|
 | `crisp_dm` | Frame the project and progress through understanding, preparation, modeling, evaluation, and delivery. | Available |
-| `sprints` | Commit to a manageable next body of work, review it, and decide what follows. | Planned |
+| `sprints` | Commit to a manageable next body of work: groom it (hypothesis, how we'll know, solution), track checkbox tasks, and review it to decide what follows. | Available |
 | `model_iteration` | Test a change and capture what we learned. | Planned |
 | `modular_dl_models` | Build models from clear blocks and maintain human-readable architecture documentation with visual aids where useful. | Available |
 
