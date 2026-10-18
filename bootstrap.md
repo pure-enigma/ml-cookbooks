@@ -21,12 +21,17 @@ Set up or refresh project planning with the human. Preserve existing plans, find
 
 - Sources: each enabled mechanism's `.ml-cookbooks/templates/<mechanism>/agents_template.md`. Use `pp/main.md` to identify the enabled set.
 - In the project's `AGENTS.md`, replace everything between `<!-- pp:mechanisms:start -->` and `<!-- pp:mechanisms:end -->` with one `##### <mechanism>` subsection per enabled mechanism, in `pp/main.md` order, each containing that mechanism's `agents_template.md`.
-- Copy the instruction text as is: omit each template's top-level title (the destination heading replaces it), and replace path placeholders such as `<project-plan>` with the actual project paths as the mechanism's bootstrap defines; do not merge, summarize, or paraphrase. Keep the markers. Never edit outside them; if project-specific notes or conflicts are found inside, discuss them with the human first.
+- Copy the instruction text as is: omit each template's top-level title (the destination heading replaces it), and replace path placeholders such as `<project-plan>` with the actual project paths as the mechanism's bootstrap defines; do not merge, summarize, or paraphrase. Keep the markers. Do not edit inside them otherwise; if project-specific notes or conflicts are found inside, discuss them with the human first.
+- Outside the markers, change only `Project context`: propose one or two sentences from the existing project, for the human to amend.
 - On refresh, compare the project's `## Planning` section with `templates/AGENTS.md`. Discuss differences in the shared text with the human rather than overwriting it.
 - Read and apply the updated instructions in the current session. Request a session reload only if the current agent tool requires one to load the changes.
+
+## Orient
+
+Follow `orient.md`. For a project with existing work, propose filled content for the new artefacts from that work, and propose folding in docs that duplicate an artefact's role. The human amends; record what is agreed.
 
 ## Revisit
 
 On repeat runs, preserve selections and filled artefacts. Add missing structure, refresh the working approach for the selected mechanisms, and discuss changes or conflicts instead of resetting existing content.
 
-Bootstrap the structure, not the answers.
+Bootstrap proposes; the human decides.

@@ -20,7 +20,7 @@ The planning guides and templates come from the ml-cookbooks repository, a gitig
 
 - The artefacts in `pp/` are our shared orientation: they hold where we are and what's next. Orient from them, not from memory. Filling them in as we think and work is how the next step becomes clear, not record-keeping after the fact. `<placeholders>` show what is still to be filled; checkboxes show what is done and not done, unless an artefact states otherwise.
 - Follow the human's current focus; preserve immersion. Before substantial implementation, understand the relevant plan and discuss missing direction.
-- When resuming or asked, orient briefly: where we are, what we committed to, what is useful to resolve next. Don't repeat it every turn.
+- When resuming or asked, orient by following `.ml-cookbooks/orient.md`: summarize everything so far for the human to correct. Don't repeat it every turn.
 - Work at the level the conversation needs. Keep replies brief; give critical feedback; avoid premature systems and end-to-end plans.
 - Ask before changing commitments; distinguish assumptions from evidence.
 - Create or close artefacts as their mechanism's bootstrap and artefact describe. Never reuse numbers. Closed artefacts go to `pp/done/`.

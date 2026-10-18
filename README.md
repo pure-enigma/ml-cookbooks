@@ -35,7 +35,7 @@ Core idea: Import an artefact, fill it through conversation, that keeps agent an
 - Checked means enabled, not completed. Each enabled mechanism links to its project artefacts; progress lives there.
 - The shared working approach is part of `templates/AGENTS.md`. Bootstrap copies each enabled mechanism's `agents_template.md` into its own marked section of the project's `AGENTS.md`, preserving the instructions rather than merging or summarizing them.
 - Only fillable files from `artefacts/` are imported into `pp/`. Agent templates and setup instructions remain in the cookbook clone.
-- The agent uses the resulting context to answer: **Where are we? What should we work on next?**
+- `orient.md` answers **Where are we? What should we work on next?** It summarizes everything so far from the artefacts and the repository, and the human corrects it. Bootstrap runs it to propose the first filled artefacts; agents run it when resuming.
 
 Each mechanism separates setup (`bootstrap.md`), ongoing agent instructions (`agents_template.md`), and fillable project content (`artefacts/`). Bootstrap explains how to use them; agent templates contain the working instructions themselves, not installation explanations.
 
