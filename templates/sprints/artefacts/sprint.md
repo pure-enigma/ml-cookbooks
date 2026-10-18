@@ -1,6 +1,7 @@
 # Sprint <nnn>: <name>
 
 Instructions (copied into `AGENTS.md`): <ml-cookbooks-root>/templates/sprints/agents_template.md
+Machine log: <sprint-log>
 
 **Goal:** <What will this sprint achieve, in one line?>
 **Status:** `[ ]` <`[ ]` not started, `[~]` in progress, `[x]` closed — and one line on where it stands>
@@ -12,7 +13,7 @@ Instructions (copied into `AGENTS.md`): <ml-cookbooks-root>/templates/sprints/ag
 |---|---|---:|---:|
 | <T1 name> | `[ ]` | <0/n> | <0/m> |
 
-Keep the counts in step with the checkboxes below.
+Keep the counts in step with the subtask and done-when checkboxes below.
 
 ## Grooming
 
@@ -24,7 +25,7 @@ Settle this before implementing a task. Revisit it when the work shows it was wr
 
 ### Analysis / math
 
-<Derivations, shapes, complexity, expected costs, or other analysis that the implementation depends on.>
+<Derivations, shapes, complexity, expected costs, or other analysis that the implementation depends on. Write "n/a" if the sprint needs none.>
 
 ### Hypothesis
 
@@ -51,7 +52,9 @@ Settle this before implementing a task. Revisit it when the work shows it was wr
 - [ ] **T1.1** <subtask>
 - [ ] **T1.2** <subtask>
 
-**Done when:** <The checks that show this task works, not just that its subtasks were done.>
+**Done when:**
+
+- [ ] <A check that shows this task works, not just that its subtasks were done.>
 
 ## Out of scope
 
@@ -59,9 +62,11 @@ Settle this before implementing a task. Revisit it when the work shows it was wr
 
 ## Log
 
+One line per completed subtask or decision: today's actual date, evidence links, no narrative. Working detail goes in the machine log.
+
 | Date | Task | Evidence or decision |
 |---|---|---|
-| <date> | <T1.1> | <What was done or decided, with links to commits, results, or files.> |
+| <YYYY-MM-DD> | <T1.1> | <What was done or decided, with links to commits, results, or files.> |
 
 ## Closing review
 
@@ -70,4 +75,4 @@ Settle this before implementing a task. Revisit it when the work shows it was wr
 - Project plan updates: <What was updated in the project plan as a result?>
 - Proposed next sprint focus: <What should the next sprint commit to, and why?>
 
-Once closure is agreed with the human, move this sprint to `pp/done/` without renumbering and update references, including relative cookbook paths.
+Once closure is agreed with the human, move this sprint and its machine log to `pp/done/` without renumbering and update references, including relative cookbook paths.

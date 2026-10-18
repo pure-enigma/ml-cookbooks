@@ -4,7 +4,7 @@ Summarize everything so far so the human can step back into the work and correct
 
 ## Gather
 
-- Read the project's `AGENTS.md` working approach, `pp/main.md`, and the active artefacts in `pp/`.
+- Read the project's `AGENTS.md` working approach, `pp/main.md`, and the active artefacts in `pp/`. Read machine logs, such as a sprint's `_log.md`, only for work already in progress.
 - Then read what the artefacts do not yet hold: the project's own docs, code, results, and recent git history.
 
 ## Summarize

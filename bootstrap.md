@@ -7,7 +7,7 @@ Set up or refresh project planning with the human. Preserve existing plans, find
 - Reuse the cookbook clone at `.ml-cookbooks/`. If something else exists at that path, ask the human rather than overwriting it. Ensure `/.ml-cookbooks/` is gitignored without replacing existing entries. Do not automatically pull or reset the clone; discuss refreshing it when needed.
 - Use `templates/AGENTS.md` as the starter for the project's root `AGENTS.md`. Merge its planning section if that file already exists; do not copy the cookbook's own root `AGENTS.md`.
 - Create `pp/` and `pp/done/` if missing. `pp` stands for project planning.
-- Import `templates/artefacts/main.md` as `pp/main.md` only if that project file is missing. All mechanisms start unselected.
+- Import `templates/artefacts/main.md` as `pp/main.md` only if that project file is missing, replacing every `<ml-cookbooks-root>` in it, including for mechanisms not enabled. All mechanisms start unselected. On refresh, add entries for mechanisms new to the template.
 
 ## Enable mechanisms
 
